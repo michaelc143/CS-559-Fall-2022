@@ -77,4 +77,4 @@ function setup() { "use strict";
   slider2.addEventListener("input",draw);
   draw();
 }
-window.onload = setup;
+window.onload = setup; 
