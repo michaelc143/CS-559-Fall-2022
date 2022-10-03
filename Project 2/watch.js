@@ -1,6 +1,3 @@
-/*https://geeksretreat.wordpress.com/2012/05/25/html-5-canvas-an-animated-analogue-clock/
-    Modified clock hand rotation method to make my hands rotate with actual clock time
-*/
 function watch() {
     var canvas = document.getElementById('myCanvas');
     var context = canvas.getContext('2d');
