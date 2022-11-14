@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Michael Corbishley CS 559 HW5</title>
+    <style>
+      #observerCanvas {
+        background-image: url("stars.gif");
+      }
+      #cameraCanvas {
+        background-image: url("stars.gif");
+      }
+      * {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+      } 
+      /* effects all elements */
+  </style>
+  </head>
+  <body>
+    <canvas id="observerCanvas" width="400" height="400" style="border:1px solid #888;"></canvas>
+    <canvas id="cameraCanvas" width="400" height="400" style="border:1px solid #888;"></canvas>
+    </br>
+    View by a remote external observer
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    View from location of the camera</br>
+    <input id="slider1" type="range" min="0" max="200" /> Move cube along curve
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="slider2" type="range" min="0" max="100" /> Move camera around scene
+    <script src = "hw5.js"></script>
+    <script type="text/javascript" src="gl-matrix-min.js"></script>
+  </body>
+</html>
