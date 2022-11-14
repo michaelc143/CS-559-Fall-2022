@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Michael Corbishley CS 559 HW4</title>
+    <style>
+      #myCanvas {
+          background-image: url("stars.gif");
+      }
+      * {
+        font-family: 'Times New Roman', Times, serif;
+      } 
+      /* effects all elements */
+  </style>
+  </head>
+  <body>
+    <h1>Planes Moveable Using Sliders To Move Them Along Figure-8 Curve</h1>
+    <canvas id="myCanvas" width="600" height="600"></canvas>
+    <br/>
+    <input id="slider1" type="range" min="0" max="200" />
+    <label>Green Plane Slider</label>
+    <br/>
+    <input id="slider3" type="range" min="0" max="200" />
+    <label>Red Plane Slider</label>
+    <br/>
+    <input id="slider2" type="range" min="0" max="200" />
+    <label>Grey Plane Slider</label>
+    <br/>
+    <input type="checkbox" id="switch" class="checkbox" />
+    <label for="switch" class="toggle">Click box to turn tracks on or off</label>
+    <script src = "hw4.js"></script>
+    <script type="text/javascript" src="gl-matrix-min.js"></script>
+  </body>
+</html>
