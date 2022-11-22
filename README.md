@@ -1,2 +1,2 @@
 # CS559
-CS 559 Fall 2022 Projects
+CS 559 Computer Graphics Fall 2022 Projects at UW - Madison
